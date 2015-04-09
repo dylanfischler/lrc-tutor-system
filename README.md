@@ -21,7 +21,7 @@ Your app should now be running on [localhost:3000](http://localhost:3000/).
 After cloning the repository (shown above in Running Locally), checkout a branch to work on. 
 
 ```
-$ git checkout -b branchname
+$ git checkout -b branchName
 ```
 
 When work is complete, push to your branch. 
@@ -33,6 +33,8 @@ $ git push origin branchName
 ```
 
 ## Deploying to Production
+
+** MAKE SURE YOUR BUILD IS PASSING **
 
 ```
 $ git add .
