@@ -6,6 +6,7 @@
     "mongoose": "*",
     "q": "*"
   },
+  "start": "gulp",
   "devDependencies": {
     "gulp": "*",
     "gulp-bower": "*",
