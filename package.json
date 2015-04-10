@@ -3,9 +3,6 @@
   "version": "0.1.2",
   "description": "A System for the UMass LRC Tutors",
   "main": "server/server.js",
-  "scripts": {
-    "start": "grunt production"
-  },
   "dependencies": {
     "express": "~4.9.x"
   },
