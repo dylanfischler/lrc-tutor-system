@@ -5,7 +5,7 @@ var mongoose    = require('mongoose'),
     bodyParser  = require('body-parser'),
     middle      = require('./middleware');
 
-mongoose.connect(process.env.DB_URL || 'mongodb://localhost/lrc-hack');
+mongoose.connect(process.env.DBURL || 'mongodb://localhost/lrc-hack');
 /*
  * Include all your global env variables here.
 */

@@ -58,7 +58,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('default', ['express:dev','sass', 'watch']);
 	grunt.registerTask('development', ['express:dev','sass', 'watch']);
 	grunt.registerTask('production', ['express:prod','sass', 'watch']);
-	grunt.registerTask('heroku:production', ['express:prod', 'sass', 'watch']);
+	grunt.registerTask('heroku:production', ['sass']);
 
 	//ending grunt task
 	grunt.registerTask('stop', ['forever:serv:stop']);
