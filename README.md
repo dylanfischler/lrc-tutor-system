@@ -5,12 +5,22 @@ The application is built using [Express 4](http://expressjs.com/).
 
 ## Running Locally
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+Make sure you have [Node.js](http://nodejs.org/) installed, and that your SSH keys are on Github.
+
+## Uploading SSH keys to Github
+
+```
+$ cd ~/.ssh # if this is not a directory, mkdir ~/.ssh
+$ ssh-keygen -t rsa # leave all default options (press enter)
+$ cat id_rsa.pub # add this key to Github
+```
 
 ```sh
 $ git clone git@github.com:dylanfischler/lrc-tutor-system.git # or clone your own fork
 $ cd lrc-tutor-system
 $ npm install
+$ npm install -g grunt-cli # if you haven't installed grunt
+$ sudo gem install sass # if you haven't installed SASS
 $ grunt development
 ```
 
