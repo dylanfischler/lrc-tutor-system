@@ -19,10 +19,10 @@ Make sure you have [Node.js](http://nodejs.org/) and [mongodb](https://www.mongo
 $ git clone git@github.com:dylanfischler/lrc-tutor-system.git # or clone your own fork
 $ cd lrc-tutor-system
 $ npm install
-$ npm install -g gulp # if you haven't installed gulp
+$ npm install -g grunt # if you haven't installed grunt
 $ sudo gem install sass # if you haven't installed SASS
 $ mongod --fork --logpath /var/log/mongodb.log # start mongodb as a daemon
-$ gulp
+$ grunt
 ```
 
 Your app should now be running on [localhost:9000](http://localhost:9000/).
