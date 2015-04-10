@@ -1,0 +1,12 @@
+{
+  "name": "lrc-hack",
+  "version": "",
+  "dependencies": {
+    "bootstrap-css-only": "*",
+    "angular": "*" ,
+    "angular-touch": "*",
+    "angular-cookies": "*",
+    "angular-ui-router": "*"
+  }
+}
+

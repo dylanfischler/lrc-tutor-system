@@ -1,33 +1,26 @@
 {
-  "name": "lrc-hack",
-  "version": "0.1.2",
-  "description": "A System for the UMass LRC Tutors",
-  "main": "index.js",
-  "scripts": {
-    "start": "grunt production"
-  },
+  "name": "package",
+  "version": "0.0.0",
   "dependencies": {
-    "express": "~4.9.x"
+    "express": "*",
+    "mongoose": "*",
+    "q": "*"
   },
-  "engines": {
-    "node": "0.10.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dylanfischler/lrc-tutor-system"
-  },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "license": "MIT",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-sass": "^0.9.2",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-express-server": "^0.5.1",
-    "grunt-forever": "^0.4.5",
-    "load-grunt-tasks": "^3.1.0"
+    "gulp": "*",
+    "gulp-bower": "*",
+    "morgan": "*",
+    "body-parser": "*",
+    "tiny-lr": "*",
+    "gulp-jshint": "*",
+    "gulp-notify": "*",
+    "gulp-livereload": "*",
+    "gulp-nodemon": "*",
+    "gulp-plumber": "*",
+    "gulp-task-listing": "*",
+    "jshint-stylish": "*",
+    "gulp-concat": "*",
+    "gulp-uglify": "*",
+    "gulp-sass": "*"
   }
 }
