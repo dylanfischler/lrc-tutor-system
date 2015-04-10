@@ -10,7 +10,6 @@ var gulp    = require('gulp'),
     lr_port = 35728,
     sass   = require('gulp-sass');
 
-
 var paths = {
   scripts: ['!client/lib/**/*.js', 'client/**/*.js'],
   views: ['!client/lib/*.html', 'client/**/*.html', 'client/index.html'],
@@ -85,3 +84,4 @@ gulp.task('watch', function () {
 gulp.task('build', build);
 
 gulp.task('default', ['build', 'live', 'serve', 'watch']);
+gulp.task('heroku:production', ['build', 'live', 'serve']);
